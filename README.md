@@ -1,10 +1,6 @@
 <div align="center">
 
-# Hi, I'm YuXuanLin
-
-### Master Student | AI | Computer Vision | YOLO
-
-`YOLO改进` · `大模型调参` · `边缘端部署` · `前后端开发`
+<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/profile-hero.png" alt="YuXuanLin profile banner" width="100%" />
 
 </div>
 
@@ -72,15 +68,5 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=catiseyeqaq&show_icons=true&theme=radical&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=catiseyeqaq&layout=compact&theme=radical&hide_border=true)
 
 </div>
