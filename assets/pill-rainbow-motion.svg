@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="56" viewBox="0 0 320 56" role="img" aria-label="Rainbow Motion">
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4285F4"/>
+      <stop offset="25%" stop-color="#00C2FF"/>
+      <stop offset="50%" stop-color="#A142F4"/>
+      <stop offset="75%" stop-color="#EA4335"/>
+      <stop offset="100%" stop-color="#34A853"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="316" height="52" rx="26" fill="url(#rainbow)"/>
+  <text x="160" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" letter-spacing="2">RAINBOW MOTION</text>
+</svg>

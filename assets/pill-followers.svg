@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="56" viewBox="0 0 270 56" role="img" aria-label="Followers 2">
+  <rect x="2" y="2" width="266" height="52" rx="26" fill="#4F86F7"/>
+  <rect x="2" y="2" width="178" height="52" rx="26" fill="#ffffff"/>
+  <text x="90" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#202124" letter-spacing="2">FOLLOWERS</text>
+  <text x="220" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" letter-spacing="1">2</text>
+</svg>

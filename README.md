@@ -4,15 +4,17 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Google+Sans&weight=700&pause=1050&center=true&vCenter=true&width=980&height=60&color=00C2FF&lines=YOLO+Improvement+for+Real+Scenes;LLM+Fine-tuning+and+Private+Deployment;Computer+Vision+%2B+Engineering+Landing)](https://github.com/catiseyeqaq)
 
-<img src="https://img.shields.io/badge/Gemini%20Style-Rainbow%20Motion-8E2DE2?style=for-the-badge&labelColor=4285F4&color=00C2FF" />
-<img src="https://img.shields.io/badge/Visual%20Tone-Bright%20%26%20Rounded-EA4335?style=for-the-badge&labelColor=FBBC05&color=34A853" />
+<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-gemini-style.svg" alt="Gemini Style" />
+<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-rainbow-motion.svg" alt="Rainbow Motion" />
+<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-visual-tone.svg" alt="Visual Tone" />
+<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-bright-rounded.svg" alt="Bright and Rounded" />
 
 <br />
 <br />
 
-[![GitHub followers](https://img.shields.io/github/followers/catiseyeqaq?style=for-the-badge&color=4285F4&labelColor=ffffff&label=Followers)](https://github.com/catiseyeqaq?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/catiseyeqaq?style=for-the-badge&color=FBBC05&labelColor=ffffff&label=Stars)](https://github.com/catiseyeqaq?tab=stars)
-[![Email](https://img.shields.io/badge/Email-catiseyeqaq%40163.com-EA4335?style=for-the-badge&labelColor=ffffff)](mailto:catiseyeqaq@163.com)
+<a href="https://github.com/catiseyeqaq?tab=followers"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-followers.svg" alt="Followers" /></a>
+<a href="https://github.com/catiseyeqaq?tab=stars"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-stars.svg" alt="Stars" /></a>
+<a href="mailto:catiseyeqaq@163.com"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-email-red.svg" alt="Email" /></a>
 
 </div>
 
