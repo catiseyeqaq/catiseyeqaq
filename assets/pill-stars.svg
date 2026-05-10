@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="250" height="56" viewBox="0 0 250 56" role="img" aria-label="Stars 12">
-  <rect x="2" y="2" width="246" height="52" rx="26" fill="#FBBC05"/>
-  <rect x="2" y="2" width="160" height="52" rx="26" fill="#ffffff"/>
-  <text x="80" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#202124" letter-spacing="2">STARS</text>
-  <text x="205" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#202124" letter-spacing="1">12</text>
+  <style>
+    :root { --pill:#fbbc04; --surface:#ffffff; --label:#202124; --value:#202124; }
+    @media (prefers-color-scheme: dark) {
+      :root { --pill:#c6a64a; --surface:#1e1e1e; --label:#f1f3f4; --value:#121212; }
+    }
+  </style>
+  <rect x="2" y="2" width="246" height="52" rx="26" fill="var(--pill)"/>
+  <rect x="2" y="2" width="160" height="52" rx="26" fill="var(--surface)"/>
+  <text x="80" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="var(--label)" letter-spacing="2">STARS</text>
+  <text x="205" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="var(--value)" letter-spacing="1">12</text>
 </svg>
