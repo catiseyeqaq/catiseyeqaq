@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/google-gemini-hero.svg" alt="YuXuanLin Google Gemini style banner" width="100%" />
+<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/google-gemini-hero.svg?v=20260510b" alt="YuXuanLin Google Gemini style banner" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Google+Sans&weight=700&pause=1050&center=true&vCenter=true&width=980&height=60&color=1A73E8&lines=YOLO+Improvement+for+Real+Scenes;LLM+Fine-tuning+and+Private+Deployment;Computer+Vision+%2B+Engineering+Landing)](https://github.com/catiseyeqaq)
 

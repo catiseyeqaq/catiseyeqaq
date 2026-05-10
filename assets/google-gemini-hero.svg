@@ -149,6 +149,18 @@
       .chip {
         animation: chipGlow 4.8s ease-in-out infinite;
       }
+      .cardGlowBlue {
+        animation: glowBlue 5.2s ease-in-out infinite;
+      }
+      .cardGlowYellow {
+        animation: glowYellow 5.8s ease-in-out infinite;
+      }
+      .cardGlowGreen {
+        animation: glowGreen 6.0s ease-in-out infinite;
+      }
+      .cardGlowMain {
+        animation: glowMain 5.6s ease-in-out infinite;
+      }
       @keyframes floatY {
         0%, 100% { transform: translateY(0px); }
         50% { transform: translateY(-10px); }
@@ -171,6 +183,22 @@
       @keyframes chipGlow {
         0%, 100% { opacity: 0.94; }
         50% { opacity: 1; }
+      }
+      @keyframes glowMain {
+        0%, 100% { opacity: 0.08; transform: scale(0.98); }
+        50% { opacity: 0.18; transform: scale(1.02); }
+      }
+      @keyframes glowBlue {
+        0%, 100% { opacity: 0.06; transform: scale(0.98); }
+        50% { opacity: 0.15; transform: scale(1.03); }
+      }
+      @keyframes glowYellow {
+        0%, 100% { opacity: 0.05; transform: scale(0.98); }
+        50% { opacity: 0.13; transform: scale(1.03); }
+      }
+      @keyframes glowGreen {
+        0%, 100% { opacity: 0.06; transform: scale(0.98); }
+        50% { opacity: 0.14; transform: scale(1.03); }
       }
     </style>
   </defs>
@@ -210,33 +238,30 @@
   <text x="880" y="202" class="quote">"Make AI vivid, useful,</text>
   <text x="952" y="248" class="quote">and closer to people."</text>
 
-  <g transform="translate(126 474)" class="chip">
-    <rect width="560" height="126" rx="32" class="surface-alt stroke-main" stroke-width="2"/>
-    <text x="42" y="48" class="cardTitle">About Me</text>
-    <text x="42" y="86" class="cardBody">I build YOLO and multimodal systems for practical</text>
-    <text x="42" y="112" class="cardBody">vision tasks, private deployment, and engineering delivery.</text>
-  </g>
+  <ellipse cx="406" cy="537" rx="306" ry="88" fill="url(#blueGlow)" class="cardGlowMain"/>
+  <ellipse cx="830" cy="537" rx="138" ry="74" fill="url(#blueGlow)" class="cardGlowBlue"/>
+  <ellipse cx="1074" cy="537" rx="142" ry="74" fill="url(#yellowGlow)" class="cardGlowYellow"/>
+  <ellipse cx="1336" cy="537" rx="154" ry="74" fill="url(#greenGlow)" class="cardGlowGreen"/>
 
-  <g transform="translate(720 474)" class="chip">
-    <rect width="220" height="126" rx="32" class="surface-alt stroke-blue" stroke-width="2"/>
-    <text x="36" y="48" class="cardTitle">Vision AI</text>
-    <text x="36" y="86" class="cardBody">Detection</text>
-    <text x="36" y="112" class="cardBody">Small objects</text>
-  </g>
+  <rect x="126" y="474" width="560" height="126" rx="32" class="surface-alt stroke-main chip" stroke-width="2"/>
+  <text x="168" y="522" class="cardTitle">About Me</text>
+  <text x="168" y="560" class="cardBody">I build YOLO and multimodal systems for practical</text>
+  <text x="168" y="586" class="cardBody">vision tasks, private deployment, and engineering delivery.</text>
 
-  <g transform="translate(962 474)" class="chip">
-    <rect width="226" height="126" rx="32" class="surface-alt stroke-yellow" stroke-width="2"/>
-    <text x="36" y="48" class="cardTitle">AI Agents</text>
-    <text x="36" y="86" class="cardBody">Workflow</text>
-    <text x="36" y="112" class="cardBody">Autonomy</text>
-  </g>
+  <rect x="720" y="474" width="220" height="126" rx="32" class="surface-alt stroke-blue chip" stroke-width="2"/>
+  <text x="756" y="522" class="cardTitle">Vision AI</text>
+  <text x="756" y="560" class="cardBody">Detection</text>
+  <text x="756" y="586" class="cardBody">Small objects</text>
 
-  <g transform="translate(1210 474)" class="chip">
-    <rect width="250" height="126" rx="32" class="surface-alt stroke-green" stroke-width="2"/>
-    <text x="30" y="48" class="cardTitle">Deploy</text>
-    <text x="30" y="86" class="cardBody">Edge + Web</text>
-    <text x="30" y="112" class="cardBody">Private AI</text>
-  </g>
+  <rect x="962" y="474" width="226" height="126" rx="32" class="surface-alt stroke-yellow chip" stroke-width="2"/>
+  <text x="998" y="522" class="cardTitle">AI Agents</text>
+  <text x="998" y="560" class="cardBody">Workflow</text>
+  <text x="998" y="586" class="cardBody">Autonomy</text>
+
+  <rect x="1210" y="474" width="250" height="126" rx="32" class="surface-alt stroke-green chip" stroke-width="2"/>
+  <text x="1240" y="522" class="cardTitle">Deploy</text>
+  <text x="1240" y="560" class="cardBody">Edge + Web</text>
+  <text x="1240" y="586" class="cardBody">Private AI</text>
 
   <g class="spark">
     <circle cx="1308" cy="142" r="12" class="accent-yellow"/>
