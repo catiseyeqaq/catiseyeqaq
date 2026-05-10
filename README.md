@@ -1,5 +1,11 @@
 <div align="center">
-<img src="https://github.com/catiseyeqaq/catiseyeqaq/blob/main/assets/profile-hero.svg?raw=true" alt="YuXuanLin - Master Student researching Computer Vision, YOLO, and Edge Deployment" width="100%" />
+
+# Hi, I'm YuXuanLin
+
+### Master Student | AI | Computer Vision | YOLO
+
+`YOLO改进` · `大模型调参` · `边缘端部署` · `前后端开发`
+
 </div>
 
 ---
