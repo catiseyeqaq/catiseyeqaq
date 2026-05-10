@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bc8cff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f0f6fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9d1d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" fill="url(#bg)" rx="8"/>
+  <line x1="40" y1="55" x2="760" y2="55" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
+  <text x="40" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#58a6ff" font-weight="600" letter-spacing="3">HELLO WORLD</text>
+  <text x="40" y="105" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="38" fill="url(#text-grad)" font-weight="700">YuXuanLin</text>
+  <text x="40" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#8b949e" font-weight="400">Master Student @ CQUST | AI & Computer Vision</text>
+  <text x="40" y="175" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">🔬 YOLO改进 | 大模型调参 | 私有化系统部署 | 前后端全栈</text>
+  <text x="40" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">🏗️ 研究方向：基坑隐患识别 | 无人机热成像 | 边缘端检测</text>
+  <rect x="40" y="228" width="4" height="50" fill="url(#accent)" rx="2"/>
+  <text x="56" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#58a6ff" font-weight="600">CURRENT FOCUS</text>
+  <text x="56" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">改进YOLO + 多模态大模型级联 → 私有化隐患识别系统</text>
+  <circle cx="720" cy="80" r="30" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="720" cy="80" r="20" fill="none" stroke="url(#accent)" stroke-width="1" opacity="0.3"/>
+  <text x="720" y="87" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle" fill="#58a6ff">🧠</text>
+</svg>
