@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/profile-hero.svg" alt="YuXuanLin - Master Student researching Computer Vision, YOLO, and Edge Deployment" width="100%" />
+<img src="https://github.com/catiseyeqaq/catiseyeqaq/blob/main/assets/profile-hero.svg?raw=true" alt="YuXuanLin - Master Student researching Computer Vision, YOLO, and Edge Deployment" width="100%" />
 </div>
 
 ---
