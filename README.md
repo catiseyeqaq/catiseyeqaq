@@ -1,16 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:4285F4,20:00C2FF,40:A142F4,60:EA4335,80:FBBC05,100:34A853&text=YuXuanLin&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=Master%20Student%20%7C%20AI%20%7C%20Computer%20Vision&descAlignY=58&descSize=19&descColor=ffffff" width="100%" />
+<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/google-gemini-hero.svg" alt="YuXuanLin Google Gemini style banner" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Google+Sans&weight=700&pause=1050&center=true&vCenter=true&width=980&height=60&color=00C2FF&lines=YOLO+Improvement+for+Real+Scenes;LLM+Fine-tuning+and+Private+Deployment;Computer+Vision+%2B+Engineering+Landing)](https://github.com/catiseyeqaq)
 
 <img src="https://img.shields.io/badge/Gemini%20Style-Rainbow%20Motion-8E2DE2?style=for-the-badge&labelColor=4285F4&color=00C2FF" />
 <img src="https://img.shields.io/badge/Visual%20Tone-Bright%20%26%20Rounded-EA4335?style=for-the-badge&labelColor=FBBC05&color=34A853" />
-
-<img src="https://img.shields.io/badge/AI-4285F4?style=for-the-badge&labelColor=ffffff&color=4285F4" />
-<img src="https://img.shields.io/badge/Computer%20Vision-EA4335?style=for-the-badge&labelColor=ffffff&color=EA4335" />
-<img src="https://img.shields.io/badge/YOLO-FBBC05?style=for-the-badge&labelColor=ffffff&color=FBBC05&logoColor=202124" />
-<img src="https://img.shields.io/badge/Engineering-34A853?style=for-the-badge&labelColor=ffffff&color=34A853" />
 
 <br />
 <br />
