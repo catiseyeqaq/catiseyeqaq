@@ -35,14 +35,14 @@
       <h3>🛸 无人机热成像人员检测</h3>
       <p>改进 <code>YOLO11s-BSE</code>，引入 <code>SPDConv</code>、<code>BiFPN</code>、<code>EMA</code>、<code>P2 小目标层</code> 和 <code>NWD Loss</code>。</p>
       <p>
-        <a href="https://github.com/catiseyeqaq/Unmanned-aerial-vehicle-high-altitude-thermal-imaging-detection-ground-personnel-system"><img src="https://img.shields.io/badge/Open%20Project-4285F4?style=for-the-badge&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/catiseyeqaq/Unmanned-aerial-vehicle-high-altitude-thermal-imaging-detection-ground-personnel-system"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-open-blue.svg" alt="Open Project" /></a>
       </p>
     </td>
     <td width="50%">
       <h3>⛏️ 煤矸石智能识别</h3>
       <p>改进 <code>YOLO-GDL</code>，集成 <code>Gradio 可视化</code>、<code>语音播报</code> 和 <code>串口控制</code>，形成端到端应用。</p>
       <p>
-        <a href="https://github.com/catiseyeqaq/Automatic-Identification-of-Coal-Mines-and-Ores"><img src="https://img.shields.io/badge/Open%20Project-EA4335?style=for-the-badge&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/catiseyeqaq/Automatic-Identification-of-Coal-Mines-and-Ores"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-open-red.svg" alt="Open Project" /></a>
       </p>
     </td>
   </tr>
@@ -51,14 +51,14 @@
       <h3>🐱 宠物行为监测</h3>
       <p>基于 <code>YOLO26 + Qwen + ASR</code> 的多模态分析系统，覆盖行为识别、情绪理解和建议生成。</p>
       <p>
-        <a href="https://github.com/catiseyeqaq/Real-time-Monitoring-and-Analysis-of-Pet-Behavior"><img src="https://img.shields.io/badge/Open%20Project-FBBC05?style=for-the-badge&logo=github&logoColor=202124" /></a>
+        <a href="https://github.com/catiseyeqaq/Real-time-Monitoring-and-Analysis-of-Pet-Behavior"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-open-yellow.svg" alt="Open Project" /></a>
       </p>
     </td>
     <td width="50%">
       <h3>🔧 Ultralytics 改进版</h3>
       <p>围绕 <code>SPDConv</code>、<code>BiFPN</code>、<code>CARAFE</code>、<code>DSConv</code> 等模块做结构扩展与复现。</p>
       <p>
-        <a href="https://github.com/catiseyeqaq/ultralytics"><img src="https://img.shields.io/badge/Open%20Project-34A853?style=for-the-badge&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/catiseyeqaq/ultralytics"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-open-green.svg" alt="Open Project" /></a>
       </p>
     </td>
   </tr>
@@ -80,15 +80,15 @@
 ## Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=catiseyeqaq&show_icons=true&rank_icon=github&hide_border=true&title_color=4285F4&text_color=5F6368&icon_color=FBBC05&bg_color=FFFDF8" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=catiseyeqaq&layout=compact&hide_border=true&title_color=A142F4&text_color=5F6368&bg_color=F8FBFF" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=catiseyeqaq&theme=github" alt="GitHub Stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=catiseyeqaq&theme=github" alt="Top Languages" />
 </div>
 
 ## Connect
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-catiseyeqaq-202124?style=for-the-badge&logo=github&logoColor=white)](https://github.com/catiseyeqaq)
-[![Email](https://img.shields.io/badge/Email-catiseyeqaq%40163.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:catiseyeqaq@163.com)
+<a href="https://github.com/catiseyeqaq"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-github-dark.svg" alt="GitHub catiseyeqaq" /></a>
+<a href="mailto:catiseyeqaq@163.com"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-email-red.svg" alt="Email catiseyeqaq@163.com" /></a>
 
 </div>
