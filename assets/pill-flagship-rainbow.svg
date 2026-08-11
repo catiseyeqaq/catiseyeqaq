@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="56" viewBox="0 0 560 56" role="img" aria-label="焦点项目 AI 漫剧生成系统">
+  <defs>
+    <linearGradient id="flow" x1="0" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="25%" stop-color="#34a853"/>
+      <stop offset="50%" stop-color="#fbbc04"/>
+      <stop offset="75%" stop-color="#ea4335"/>
+      <stop offset="100%" stop-color="#1a73e8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="280 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="556" height="52" rx="26" fill="url(#flow)"/>
+  <path d="M36 18l12 8-12 8z" fill="#fff" opacity="0.95"/>
+  <text x="296" y="35" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="19" font-weight="700" fill="#fff" letter-spacing="2">焦点项目 · AI 漫剧生成系统</text>
+</svg>
