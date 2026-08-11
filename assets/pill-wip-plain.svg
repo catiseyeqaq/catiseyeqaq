@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="52" viewBox="0 0 420 52" role="img" aria-label="开发中 · AI 漫剧 / 桥梁检测 Agent">
   <style>
-    :root { --surface:#252525; --border:#3c4043; --text:#bdc1c6; --accent:#fbbc04; }
+    :root { --surface:#f8f9fa; --border:#d2e3fc; --text:#5f6368; --accent:#f9ab00; }
     @media (prefers-color-scheme: dark) {
       :root { --surface:#1e1e1e; --border:#35558d; --text:#bdc1c6; --accent:#c6a64a; }
     }

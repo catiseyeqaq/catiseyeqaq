@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="190" height="52" viewBox="0 0 190 52" role="img" aria-label="查看项目">
   <style>
-    :root { --surface:#252525; --border:#3c4043; --text:#f1f3f4; --icon:rgba(255,255,255,0.14); }
+    :root { --surface:#f8f9fa; --border:#d2e3fc; --text:#202124; --icon:rgba(32,33,36,0.08); }
     @media (prefers-color-scheme: dark) {
       :root { --surface:#1e1e1e; --border:#35558d; --text:#f1f3f4; --icon:rgba(255,255,255,0.10); }
     }

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="220" height="52" viewBox="0 0 220 52" role="img" aria-label="Stars 12">
   <style>
-    :root { --surface:#252525; --border:#3c4043; --text:#f1f3f4; --muted:#bdc1c6; --accent:#c6a64a; }
+    :root { --surface:#f8f9fa; --border:#d2e3fc; --text:#202124; --muted:#5f6368; --accent:#9a6700; }
     @media (prefers-color-scheme: dark) {
       :root { --surface:#1e1e1e; --border:#35558d; --text:#f1f3f4; --muted:#bdc1c6; --accent:#c6a64a; }
     }
