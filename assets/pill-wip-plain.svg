@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="52" viewBox="0 0 420 52" role="img" aria-label="开发中 · AI 漫剧 / 桥梁检测 Agent">
+  <style>
+    :root { --surface:#252525; --border:#3c4043; --text:#bdc1c6; --accent:#fbbc04; }
+    @media (prefers-color-scheme: dark) {
+      :root { --surface:#1e1e1e; --border:#35558d; --text:#bdc1c6; --accent:#c6a64a; }
+    }
+  </style>
+  <rect x="1.5" y="1.5" width="417" height="49" rx="14" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+  <circle cx="30" cy="26" r="5" fill="var(--accent)"/>
+  <text x="224" y="32" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="17" font-weight="600" fill="var(--text)" letter-spacing="2">开发中 · AI 漫剧 / 桥梁检测 Agent</text>
+</svg>

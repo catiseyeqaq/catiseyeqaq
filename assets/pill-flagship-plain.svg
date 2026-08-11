@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="52" viewBox="0 0 560 52" role="img" aria-label="焦点项目 · 陆空一体 Agent × 智慧水务">
+  <style>
+    :root { --surface:#252525; --border:#3c4043; --text:#f1f3f4; --accent:#1a73e8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --surface:#1e1e1e; --border:#35558d; --text:#f1f3f4; --accent:#4f8ff0; }
+    }
+  </style>
+  <rect x="1.5" y="1.5" width="557" height="49" rx="14" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+  <rect x="22" y="18" width="6" height="16" rx="3" fill="var(--accent)"/>
+  <text x="296" y="32" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="18" font-weight="600" fill="var(--text)" letter-spacing="2">焦点项目 · 陆空一体 Agent × 智慧水务</text>
+</svg>
