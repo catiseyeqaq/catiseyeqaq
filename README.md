@@ -4,17 +4,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Google+Sans&weight=700&pause=1050&center=true&vCenter=true&width=980&height=60&color=1A73E8&lines=Land-Air+Integrated+Agent+%C2%B7+Smart+Water;YOLO+Improvement+for+Real+Scenes;Multimodal+Generation+%2B+Commercial+Delivery)](https://github.com/catiseyeqaq)
 
-<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-gemini-style.svg" alt="Gemini Style" />
-<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-rainbow-motion.svg" alt="Rainbow Motion" />
-<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-visual-tone.svg" alt="Visual Tone" />
-<img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-bright-rounded.svg" alt="Bright and Rounded" />
-
-<br />
-<br />
-
-<a href="https://github.com/catiseyeqaq?tab=followers"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-followers.svg" alt="Followers" /></a>
-<a href="https://github.com/catiseyeqaq?tab=stars"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-stars.svg" alt="Stars" /></a>
-<a href="mailto:catiseyeqaq@163.com"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-email-red.svg" alt="Email" /></a>
+<a href="https://github.com/catiseyeqaq?tab=followers"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-followers.svg?v=20260811c" alt="Followers" /></a>
+<a href="https://github.com/catiseyeqaq?tab=stars"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-stars.svg?v=20260811c" alt="Stars" /></a>
+<a href="mailto:catiseyeqaq@163.com"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-email.svg?v=20260811c" alt="Email" /></a>
 
 </div>
 
@@ -151,7 +143,7 @@
 
 <div align="center">
 
-<a href="https://github.com/catiseyeqaq"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-github-dark.svg" alt="GitHub catiseyeqaq" /></a>
-<a href="mailto:catiseyeqaq@163.com"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-email-red.svg" alt="Email catiseyeqaq@163.com" /></a>
+<a href="https://github.com/catiseyeqaq"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-github.svg?v=20260811c" alt="GitHub catiseyeqaq" /></a>
+<a href="mailto:catiseyeqaq@163.com"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-email.svg?v=20260811c" alt="Email catiseyeqaq@163.com" /></a>
 
 </div>

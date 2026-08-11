@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="52" viewBox="0 0 330 52" role="img" aria-label="Email catiseyeqaq@163.com">
+  <style>
+    :root { --surface:#252525; --border:#3c4043; --text:#f1f3f4; --muted:#bdc1c6; --icon:rgba(255,255,255,0.14); }
+    @media (prefers-color-scheme: dark) {
+      :root { --surface:#1e1e1e; --border:#35558d; --text:#f1f3f4; --muted:#bdc1c6; --icon:rgba(255,255,255,0.10); }
+    }
+  </style>
+  <rect x="1.5" y="1.5" width="327" height="49" rx="14" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+  <circle cx="26" cy="26" r="11" fill="var(--icon)"/>
+  <rect x="19.5" y="21" width="13" height="10" rx="2" fill="none" stroke="var(--text)" stroke-width="1.6"/>
+  <path d="M20.5 22.5l5.5 4.5 5.5-4.5" fill="none" stroke="var(--text)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="32" font-family="'Segoe UI','Microsoft YaHei',Arial,sans-serif" font-size="16" font-weight="600" fill="var(--text)" letter-spacing="1">EMAIL</text>
+  <text x="112" y="32" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="600" fill="var(--muted)" letter-spacing="0.5">catiseyeqaq@163.com</text>
+</svg>

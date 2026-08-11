@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="270" height="56" viewBox="0 0 270 56" role="img" aria-label="Followers 2">
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="52" viewBox="0 0 250 52" role="img" aria-label="Followers 2">
   <style>
-    :root { --pill:#1a73e8; --surface:#ffffff; --label:#202124; --value:#ffffff; }
+    :root { --surface:#252525; --border:#3c4043; --text:#f1f3f4; --muted:#bdc1c6; --accent:#1a73e8; }
     @media (prefers-color-scheme: dark) {
-      :root { --pill:#3c7fe4; --surface:#1e1e1e; --label:#f1f3f4; --value:#f1f3f4; }
+      :root { --surface:#1e1e1e; --border:#35558d; --text:#f1f3f4; --muted:#bdc1c6; --accent:#4f8ff0; }
     }
   </style>
-  <rect x="2" y="2" width="266" height="52" rx="26" fill="var(--pill)"/>
-  <rect x="2" y="2" width="178" height="52" rx="26" fill="var(--surface)"/>
-  <text x="90" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="var(--label)" letter-spacing="2">FOLLOWERS</text>
-  <text x="220" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="var(--value)" letter-spacing="1">2</text>
+  <rect x="1.5" y="1.5" width="247" height="49" rx="14" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+  <text x="26" y="32" font-family="'Segoe UI','Microsoft YaHei',Arial,sans-serif" font-size="16" font-weight="600" fill="var(--muted)" letter-spacing="2">FOLLOWERS</text>
+  <text x="224" y="33" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="var(--accent)">2</text>
 </svg>

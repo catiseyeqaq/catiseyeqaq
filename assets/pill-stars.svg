@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="56" viewBox="0 0 250 56" role="img" aria-label="Stars 12">
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="52" viewBox="0 0 220 52" role="img" aria-label="Stars 12">
   <style>
-    :root { --pill:#fbbc04; --surface:#ffffff; --label:#202124; --value:#202124; }
+    :root { --surface:#252525; --border:#3c4043; --text:#f1f3f4; --muted:#bdc1c6; --accent:#c6a64a; }
     @media (prefers-color-scheme: dark) {
-      :root { --pill:#c6a64a; --surface:#1e1e1e; --label:#f1f3f4; --value:#121212; }
+      :root { --surface:#1e1e1e; --border:#35558d; --text:#f1f3f4; --muted:#bdc1c6; --accent:#c6a64a; }
     }
   </style>
-  <rect x="2" y="2" width="246" height="52" rx="26" fill="var(--pill)"/>
-  <rect x="2" y="2" width="160" height="52" rx="26" fill="var(--surface)"/>
-  <text x="80" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="var(--label)" letter-spacing="2">STARS</text>
-  <text x="205" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="var(--value)" letter-spacing="1">12</text>
+  <rect x="1.5" y="1.5" width="217" height="49" rx="14" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+  <text x="26" y="32" font-family="'Segoe UI','Microsoft YaHei',Arial,sans-serif" font-size="16" font-weight="600" fill="var(--muted)" letter-spacing="2">STARS</text>
+  <text x="194" y="33" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="var(--accent)">12</text>
 </svg>
