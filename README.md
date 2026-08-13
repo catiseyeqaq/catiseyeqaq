@@ -70,7 +70,10 @@
     </td>
     <td width="50%">
       <h3>🌉 桥梁检测 Agent <img src="https://img.shields.io/badge/状态-开发中-fbbc04?style=flat-square" alt="开发中" /></h3>
-      <p>面向桥梁结构巡检的智能检测 Agent：病害识别、检测报告生成与运维建议。仓库整理中，敬请期待。</p>
+      <p>城市路桥隧边坡结构病害智能巡检与分级评定 Agent：病害识别、描述生成、RAG 知识问答与分级评定（仓库私有预览中）。</p>
+      <p>
+        <a href="https://github.com/catiseyeqaq/QiaoJian-Agent"><img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/pill-open-dark.svg?v=20260813a" alt="查看项目" /></a>
+      </p>
     </td>
   </tr>
 </table>
