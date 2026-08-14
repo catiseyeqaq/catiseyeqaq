@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Land-Air Integrated Safety Inspection Agent · Architecture</title>
+  <desc id="d1">System architecture of the multimodal safety inspection agent: ingestion, perception, evidence, risk assessment, and remediation ledger, orchestrated by InspectionAgentOrchestrator.</desc>
+  <defs>
+    <linearGradient id="laBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a73e8"/><stop offset="100%" stop-color="#0b57d0"/>
+    </linearGradient>
+    <linearGradient id="laTeal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#0b5d56"/>
+    </linearGradient>
+    <radialGradient id="laBlueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a73e8" stop-opacity="0.16"/><stop offset="100%" stop-color="#1a73e8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="laGreenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34a853" stop-opacity="0.14"/><stop offset="100%" stop-color="#34a853" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="laYellowGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbc04" stop-opacity="0.18"/><stop offset="100%" stop-color="#fbbc04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="laRedGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ea4335" stop-opacity="0.14"/><stop offset="100%" stop-color="#ea4335" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="laShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#1a73e8" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      :root{
+        --bg:#ffffff; --surface:#ffffff; --surface-alt:#f8f9fa; --border:#d2e3fc;
+        --text-primary:#202124; --text-secondary:#5f6368;
+        --blue:#1a73e8; --blue-strong:#0b57d0; --green:#34a853; --yellow:#fbbc04;
+        --red:#ea4335; --teal:#0f766e;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg:#121212; --surface:#1e1e1e; --surface-alt:#252525; --border:#35558d;
+          --text-primary:#f1f3f4; --text-secondary:#bdc1c6;
+          --blue:#4f8ff0; --blue-strong:#3c7fe4; --green:#5f9f73; --yellow:#c6a64a;
+          --red:#c46a61; --teal:#3aa89c;
+        }
+      }
+      .bg{fill:var(--bg);}
+      .surface{fill:var(--surface);}
+      .surfaceAlt{fill:var(--surface-alt);}
+      .strokeMain{stroke:var(--border);}
+      .eyebrow{font:700 17px "Segoe UI",Arial,sans-serif;fill:var(--blue-strong);letter-spacing:3px;}
+      .title{font:700 42px Georgia,"Times New Roman",serif;fill:var(--text-primary);}
+      .subtitle{font:500 21px "Segoe UI",Arial,sans-serif;fill:var(--text-secondary);}
+      .cardTitle{font:700 21px Georgia,"Times New Roman",serif;fill:var(--text-primary);}
+      .cardEn{font:600 14px "Segoe UI",Arial,sans-serif;fill:var(--text-secondary);letter-spacing:1px;}
+      .cardSub{font:500 14px "Segoe UI",Arial,sans-serif;fill:var(--text-secondary);}
+      .orchTitle{font:700 25px Georgia,"Times New Roman",serif;fill:#ffffff;}
+      .orchSub{font:500 16px "Segoe UI",Arial,sans-serif;fill:#e8f0fe;}
+      .chipLabel{font:600 17px "Segoe UI",Arial,sans-serif;fill:var(--text-primary);}
+      .chipSub{font:500 13px "Segoe UI",Arial,sans-serif;fill:var(--text-secondary);}
+      .note{font:italic 500 18px Georgia,"Times New Roman",serif;fill:var(--text-secondary);}
+      .code{font:600 15px "Consolas",monospace;fill:var(--text-primary);}
+      .badgeTxt{font:700 13px "Segoe UI",Arial,sans-serif;fill:#ffffff;letter-spacing:1px;}
+      .float{animation:floaty 7s ease-in-out infinite;}
+      @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" class="bg"/>
+  <g opacity="0.85">
+    <circle cx="160" cy="150" r="120" fill="url(#laBlueGlow)" class="float"/>
+    <circle cx="1430" cy="780" r="130" fill="url(#laGreenGlow)" class="float"/>
+    <circle cx="1480" cy="120" r="90" fill="url(#laYellowGlow)"/>
+    <circle cx="120" cy="760" r="100" fill="url(#laRedGlow)"/>
+  </g>
+
+  <!-- Header -->
+  <text x="80" y="92" class="eyebrow">SYSTEM ARCHITECTURE</text>
+  <text x="80" y="148" class="title">陆空一体安全巡检 Agent</text>
+  <text x="80" y="182" class="subtitle">Land-Air Integrated Safety Inspection Agent</text>
+
+  <g>
+    <rect x="1086" y="66" width="150" height="38" rx="19" fill="url(#laBlue)"/>
+    <text x="1161" y="90" text-anchor="middle" class="badgeTxt">ACTIVE</text>
+    <rect x="1248" y="66" width="172" height="38" rx="19" fill="#4285f4"/>
+    <text x="1334" y="90" text-anchor="middle" class="badgeTxt">AGENT · CV · RAG</text>
+  </g>
+
+  <!-- Pipeline cards -->
+  <!-- Stage 1 -->
+  <g filter="url(#laShadow)">
+    <rect x="60" y="240" width="276" height="252" rx="22" class="surfaceAlt strokeMain" stroke-width="2"/>
+  </g>
+  <circle cx="198" cy="300" r="30" fill="none" stroke="var(--blue)" stroke-width="3"/>
+  <text x="198" y="307" text-anchor="middle" class="code" fill="var(--blue)">IMG</text>
+  <text x="198" y="372" text-anchor="middle" class="cardTitle">影像接入</text>
+  <text x="198" y="398" text-anchor="middle" class="cardEn">INGESTION</text>
+  <text x="198" y="436" text-anchor="middle" class="cardSub">无人机架次 · 现场摄像头</text>
+
+  <!-- Stage 2 -->
+  <g filter="url(#laShadow)">
+    <rect x="359" y="240" width="276" height="252" rx="22" class="surfaceAlt strokeMain" stroke-width="2"/>
+  </g>
+  <circle cx="497" cy="300" r="30" fill="none" stroke="var(--green)" stroke-width="3"/>
+  <text x="497" y="307" text-anchor="middle" class="code" fill="var(--green)">CV</text>
+  <text x="497" y="372" text-anchor="middle" class="cardTitle">感知识别</text>
+  <text x="497" y="398" text-anchor="middle" class="cardEn">PERCEPTION</text>
+  <text x="497" y="436" text-anchor="middle" class="cardSub">Detector + VLM 解耦</text>
+
+  <!-- Stage 3 -->
+  <g filter="url(#laShadow)">
+    <rect x="658" y="240" width="276" height="252" rx="22" class="surfaceAlt strokeMain" stroke-width="2"/>
+  </g>
+  <circle cx="796" cy="300" r="30" fill="none" stroke="var(--yellow)" stroke-width="3"/>
+  <text x="796" y="307" text-anchor="middle" class="code" fill="#b5860b">EVD</text>
+  <text x="796" y="372" text-anchor="middle" class="cardTitle">证据聚合</text>
+  <text x="796" y="398" text-anchor="middle" class="cardEn">EVIDENCE</text>
+  <text x="796" y="436" text-anchor="middle" class="cardSub">SiteMemory + Trace</text>
+
+  <!-- Stage 4 -->
+  <g filter="url(#laShadow)">
+    <rect x="957" y="240" width="276" height="252" rx="22" class="surfaceAlt strokeMain" stroke-width="2"/>
+  </g>
+  <circle cx="1095" cy="300" r="30" fill="none" stroke="var(--red)" stroke-width="3"/>
+  <text x="1095" y="307" text-anchor="middle" class="code" fill="var(--red)">RISK</text>
+  <text x="1095" y="372" text-anchor="middle" class="cardTitle">风险研判</text>
+  <text x="1095" y="398" text-anchor="middle" class="cardEn">ASSESSMENT</text>
+  <text x="1095" y="436" text-anchor="middle" class="cardSub">Safety RAG 检索</text>
+
+  <!-- Stage 5 -->
+  <g filter="url(#laShadow)">
+    <rect x="1256" y="240" width="276" height="252" rx="22" class="surfaceAlt strokeMain" stroke-width="2"/>
+  </g>
+  <circle cx="1394" cy="300" r="30" fill="none" stroke="var(--teal)" stroke-width="3"/>
+  <text x="1394" y="307" text-anchor="middle" class="code" fill="var(--teal)">LOG</text>
+  <text x="1394" y="372" text-anchor="middle" class="cardTitle">整改闭环</text>
+  <text x="1394" y="398" text-anchor="middle" class="cardEn">LEDGER</text>
+  <text x="1394" y="436" text-anchor="middle" class="cardSub">台账 · 人工确认</text>
+
+  <!-- Arrows -->
+  <g stroke="var(--border)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M345 360 l14 0 m-6 -7 l6 7 l-6 7"/>
+    <path d="M644 360 l14 0 m-6 -7 l6 7 l-6 7"/>
+    <path d="M943 360 l14 0 m-6 -7 l6 7 l-6 7"/>
+    <path d="M1242 360 l14 0 m-6 -7 l6 7 l-6 7"/>
+  </g>
+
+  <!-- Orchestrator bar -->
+  <rect x="60" y="540" width="1472" height="86" rx="22" fill="url(#laBlue)"/>
+  <text x="92" y="578" class="orchTitle">InspectionAgentOrchestrator</text>
+  <text x="92" y="606" class="orchSub">统一 单图 · 批量架次 · 问答 · 整改 流程　|　模型 / 工具协议解耦，可替换检测器 / VLM / 知识库</text>
+
+  <!-- Module chips -->
+  <g filter="url(#laShadow)">
+    <rect x="100" y="650" width="440" height="58" rx="18" class="surface strokeMain" stroke-width="2"/>
+  </g>
+  <text x="320" y="675" text-anchor="middle" class="chipLabel">ToolRegistry</text>
+  <text x="320" y="696" text-anchor="middle" class="chipSub">工具协议 · 可插拔</text>
+
+  <g filter="url(#laShadow)">
+    <rect x="580" y="650" width="440" height="58" rx="18" class="surface strokeMain" stroke-width="2"/>
+  </g>
+  <text x="800" y="675" text-anchor="middle" class="chipLabel">SiteMemory</text>
+  <text x="800" y="696" text-anchor="middle" class="chipSub">会话记忆 · 站点上下文</text>
+
+  <g filter="url(#laShadow)">
+    <rect x="1060" y="650" width="440" height="58" rx="18" class="surface strokeMain" stroke-width="2"/>
+  </g>
+  <text x="1280" y="675" text-anchor="middle" class="chipLabel">Trace</text>
+  <text x="1280" y="696" text-anchor="middle" class="chipSub">全过程审计 · 可复现</text>
+
+  <!-- Footer note -->
+  <text x="800" y="772" text-anchor="middle" class="note">生产边界：私有模型 · 真实数据 · 现场媒体 · 知识库 均由部署侧受控提供</text>
+</svg>

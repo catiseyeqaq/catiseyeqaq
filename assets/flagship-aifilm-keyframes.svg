@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t3 d3">
+  <title id="t3">AI Film &amp; Short Drama · Keyframe Showcase</title>
+  <desc id="d3">Cinematic keyframe showcase of the AI film and short-drama generation system: scene frames, the creative-to-shots pipeline, and the local ComfyUI production stack.</desc>
+  <defs>
+    <linearGradient id="filmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0d14"/><stop offset="100%" stop-color="#191b26"/>
+    </linearGradient>
+    <radialGradient id="filmRed" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ea4335" stop-opacity="0.30"/><stop offset="100%" stop-color="#ea4335" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="filmYellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbc04" stop-opacity="0.26"/><stop offset="100%" stop-color="#fbbc04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="s1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#f9a03f"/><stop offset="100%" stop-color="#7b2d8e"/></linearGradient>
+    <linearGradient id="s2" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#e0a3c4"/><stop offset="100%" stop-color="#3a1f4d"/></linearGradient>
+    <linearGradient id="s3" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#8fd3e8"/><stop offset="100%" stop-color="#2e6f8e"/></linearGradient>
+    <linearGradient id="s4" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#243a63"/><stop offset="100%" stop-color="#0a0f1f"/></linearGradient>
+    <linearGradient id="labelGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0.62"/></linearGradient>
+    <pattern id="perf" width="60" height="48" patternUnits="userSpaceOnUse">
+      <rect x="21" y="18" width="18" height="12" rx="4" fill="#2a2c3a"/>
+    </pattern>
+    <style>
+      .eyebrow{font:700 17px "Segoe UI",Arial,sans-serif;fill:#fbbc04;letter-spacing:4px;}
+      .title{font:700 42px Georgia,"Times New Roman",serif;fill:#f1f3f4;}
+      .subtitle{font:500 21px "Segoe UI",Arial,sans-serif;fill:#c9cdd6;}
+      .sceneLbl{font:700 15px "Segoe UI",Arial,sans-serif;fill:#ffffff;letter-spacing:2px;}
+      .sceneCap{font:500 13px "Segoe UI",Arial,sans-serif;fill:#d7dae2;}
+      .chipLbl{font:600 16px "Segoe UI",Arial,sans-serif;fill:#ffffff;letter-spacing:1px;}
+      .chipCap{font:500 12px "Segoe UI",Arial,sans-serif;fill:#e6e8ee;letter-spacing:1px;}
+      .techLbl{font:700 15px "Segoe UI",Arial,sans-serif;fill:#ffffff;letter-spacing:1px;}
+      .note{font:italic 500 18px Georgia,"Times New Roman",serif;fill:#c9cdd6;}
+      .float{animation:floaty 7s ease-in-out infinite;}
+      @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" fill="url(#filmBg)"/>
+  <rect x="0" y="0" width="1600" height="48" fill="url(#perf)"/>
+  <rect x="0" y="852" width="1600" height="48" fill="url(#perf)"/>
+  <g opacity="0.9">
+    <circle cx="1380" cy="240" r="160" fill="url(#filmRed)" class="float"/>
+    <circle cx="230" cy="700" r="150" fill="url(#filmYellow)" class="float"/>
+  </g>
+
+  <!-- Header -->
+  <text x="80" y="104" class="eyebrow">AI FILM · SHORT DRAMA · KEYFRAMES</text>
+  <text x="80" y="160" class="title">写实 AI 电影 / 短剧生产流水线</text>
+  <text x="80" y="194" class="subtitle">AI Film &amp; Short Drama Generation · ComfyUI + MiniMax-H3 · Local PPU</text>
+
+  <!-- Keyframe 1 -->
+  <g>
+    <rect x="60" y="230" width="347" height="290" rx="16" fill="url(#s1)"/>
+    <circle cx="233" cy="320" r="42" fill="#ffe2a8" opacity="0.9"/>
+    <rect x="60" y="430" width="347" height="90" rx="16" fill="url(#labelGrad)"/>
+    <text x="80" y="468" class="sceneLbl">SCENE 01</text>
+    <text x="80" y="492" class="sceneCap">日落 · 建立镜头</text>
+  </g>
+  <!-- Keyframe 2 -->
+  <g>
+    <rect x="435" y="230" width="347" height="290" rx="16" fill="url(#s2)"/>
+    <ellipse cx="608" cy="330" rx="46" ry="56" fill="#2c1633" opacity="0.55"/>
+    <rect x="540" y="392" width="136" height="90" rx="40" fill="#2c1633" opacity="0.55"/>
+    <rect x="435" y="430" width="347" height="90" rx="16" fill="url(#labelGrad)"/>
+    <text x="455" y="468" class="sceneLbl">SCENE 02</text>
+    <text x="455" y="492" class="sceneCap">角色定妆 · 脸锁</text>
+  </g>
+  <!-- Keyframe 3 -->
+  <g>
+    <rect x="810" y="230" width="347" height="290" rx="16" fill="url(#s3)"/>
+    <polygon points="810,470 880,360 950,470" fill="#1f5470" opacity="0.7"/>
+    <polygon points="930,470 1010,340 1090,470" fill="#16415a" opacity="0.7"/>
+    <circle cx="1110" cy="300" r="26" fill="#fff7e0" opacity="0.85"/>
+    <rect x="810" y="430" width="347" height="90" rx="16" fill="url(#labelGrad)"/>
+    <text x="830" y="468" class="sceneLbl">SCENE 03</text>
+    <text x="830" y="492" class="sceneCap">外景 · 运镜</text>
+  </g>
+  <!-- Keyframe 4 -->
+  <g>
+    <rect x="1185" y="230" width="347" height="290" rx="16" fill="url(#s4)"/>
+    <rect x="1210" y="360" width="40" height="130" fill="#0e1730" opacity="0.8"/>
+    <rect x="1268" y="320" width="46" height="170" fill="#11203f" opacity="0.8"/>
+    <rect x="1330" y="390" width="38" height="100" fill="#0e1730" opacity="0.8"/>
+    <rect x="1392" y="350" width="42" height="140" fill="#11203f" opacity="0.8"/>
+    <circle cx="1470" cy="300" r="20" fill="#dfe7ff" opacity="0.85"/>
+    <rect x="1185" y="430" width="347" height="90" rx="16" fill="url(#labelGrad)"/>
+    <text x="1205" y="468" class="sceneLbl">SCENE 04</text>
+    <text x="1205" y="492" class="sceneCap">夜景 · 成片</text>
+  </g>
+
+  <!-- Arrows between frames -->
+  <g stroke="#5f6368" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M412 370 l14 0 m-6 -7 l6 7 l-6 7"/>
+    <path d="M787 370 l14 0 m-6 -7 l6 7 l-6 7"/>
+    <path d="M1162 370 l14 0 m-6 -7 l6 7 l-6 7"/>
+  </g>
+
+  <!-- Pipeline chips -->
+  <g><rect x="60" y="556" width="278" height="60" rx="16" fill="#ea4335"/><text x="199" y="582" text-anchor="middle" class="chipLbl">创意 / 分镜</text><text x="199" y="602" text-anchor="middle" class="chipCap">IDEA / STORYBOARD</text></g>
+  <g><rect x="358" y="556" width="278" height="60" rx="16" fill="#1a73e8"/><text x="497" y="582" text-anchor="middle" class="chipLbl">Prompt Polish</text><text x="497" y="602" text-anchor="middle" class="chipCap">提示词精修</text></g>
+  <g><rect x="656" y="556" width="278" height="60" rx="16" fill="#fbbc04"/><text x="795" y="582" text-anchor="middle" class="chipLbl" fill="#202124">Keyframe</text><text x="795" y="602" text-anchor="middle" class="chipCap" fill="#3c2f00">关键帧</text></g>
+  <g><rect x="954" y="556" width="278" height="60" rx="16" fill="#0f766e"/><text x="1093" y="582" text-anchor="middle" class="chipLbl">T2V / I2V / R2V</text><text x="1093" y="602" text-anchor="middle" class="chipCap">视频生成</text></g>
+  <g><rect x="1252" y="556" width="278" height="60" rx="16" fill="#34a853"/><text x="1391" y="582" text-anchor="middle" class="chipLbl">音画对齐</text><text x="1391" y="602" text-anchor="middle" class="chipCap">AUDIO SYNC</text></g>
+
+  <!-- Tech badges -->
+  <g><rect x="60" y="648" width="240" height="52" rx="26" fill="#4285f4"/><text x="180" y="680" text-anchor="middle" class="techLbl">ComfyUI</text></g>
+  <g><rect x="320" y="648" width="300" height="52" rx="26" fill="#ea4335"/><text x="470" y="680" text-anchor="middle" class="techLbl">MiniMax-H3 · T2V/I2V/R2V</text></g>
+  <g><rect x="640" y="648" width="220" height="52" rx="26" fill="#a142f4"/><text x="750" y="680" text-anchor="middle" class="techLbl">PuLID + FaceDetailer</text></g>
+  <g><rect x="880" y="648" width="220" height="52" rx="26" fill="#34a853"/><text x="990" y="680" text-anchor="middle" class="techLbl">8×PPU · ZW810E</text></g>
+  <g><rect x="1120" y="648" width="240" height="52" rx="26" fill="#fbbc04"/><text x="1240" y="680" text-anchor="middle" class="techLbl" fill="#202124">33 套工作流</text></g>
+
+  <text x="800" y="776" text-anchor="middle" class="note">写实风格 · 本地 PPU 多卡生产 · 角色一致性跨镜锁定 · 首尾帧桥接原生音视频</text>
+</svg>

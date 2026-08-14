@@ -42,6 +42,10 @@
 
 面向施工现场与低空无人机巡检的多模态安全智能体。将 **影像接入 → 目标/场景识别 → 结构化证据 → 风险研判 → 安全知识检索 → 整改台账** 编排为可追踪闭环。
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/flagship-landair-architecture.svg?v=20260814" alt="Land-Air Inspection Agent Architecture" width="100%" />
+</p>
+
 **Highlights**
 - `InspectionAgentOrchestrator`：统一单图、批量架次、问答与整改流程
 - `ToolRegistry + SiteMemory + Trace`：工具协议、会话记忆与全过程审计
@@ -64,6 +68,10 @@
 [![Local](https://img.shields.io/badge/LLM-Local%20Deployment-A142F4?style=flat-square)](https://github.com/catiseyeqaq/zhihui-shuiwu-zonghe-guanli-agent-xitong)
 
 面向供水管网分析与运维辅助的公开示例 Agent。围绕 **管网拓扑、运行时序、风险关系、证据约束分析与可视化** 构建可复现流水线，并提供 CLI / Python API / HTML Dashboard / Open WebUI 适配。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/flagship-water-dashboard.svg?v=20260814" alt="Smart Water Management Agent Dashboard" width="100%" />
+</p>
 
 **Highlights**
 - 拓扑与时序联合分析，支持部署侧真实数据 ETL / 校准接口
@@ -88,6 +96,10 @@
 
 面向 **写实 AI 电影 / 短剧 / 商业视频** 的本地生产流水线。以 ComfyUI 为编排层，整合 MiniMax-H3、Qwen、角色一致性与关键帧工作流，覆盖从创意到镜头生成的完整链路。
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/flagship-aifilm-keyframes.svg?v=20260814" alt="AI Film & Short Drama Keyframe Showcase" width="100%" />
+</p>
+
 **Highlights**
 - 中文创意 / 分镜 → Prompt Polish → Keyframe → T2V / I2V / R2V → 音画对齐
 - `majicFlus + PuLID + FaceDetailer`：角色定妆、跨镜脸锁与细节修复
@@ -110,7 +122,7 @@
 
 ### 🛸 UAV Thermal Detection
 
-高空热成像小目标人员检测。基于改进 YOLO，引入 `SPDConv / BiFPN / P2 / NWD` 等结构，公开项目记录 **mAP50 = 0.94**。
+高空热成像小目标人员检测。基于改进 YOLO，引入 `SPDConv / BiFPN / P2 / NWD` 等结构，公开项目记录 **mAP50 ≈ 0.94**（基于项目文档化评估配置）。
 
 **[Repository →](https://github.com/catiseyeqaq/wurenji-gaokong-rechengxiang-dimian-renyuan-jiance-xitong)**
 
@@ -185,19 +197,11 @@
 
 ---
 
-## Releases & Public Boundaries
+## Open Source & Commercial Boundary
 
 公开仓库主要用于展示 **Agent 架构、工程实现、工作流、接口与可复现示例**。
 
 模型权重、真实工程数据、现场媒体、私有知识库、密钥与生产部署配置不会随公开仓库分发。各项目的开源 / 商用边界以对应仓库的 `LICENSE` 与说明文件为准。
-
-<div align="center">
-
-[![Safety Agent](https://img.shields.io/badge/Safety%20Agent-ACTIVE-1A73E8?style=for-the-badge)](https://github.com/catiseyeqaq/lu-kong-yi-ti-hua-an-quan-zhi-neng-xun-jian-agent)
-[![Smart Water](https://img.shields.io/badge/Smart%20Water-v1.0.0-0F766E?style=for-the-badge)](https://github.com/catiseyeqaq/zhihui-shuiwu-zonghe-guanli-agent-xitong)
-[![AI Film](https://img.shields.io/badge/AI%20Film-IN%20DEVELOPMENT-FBBC04?style=for-the-badge)](https://github.com/catiseyeqaq/ai-manju-shengcheng-xitong)
-
-</div>
 
 ---
 
