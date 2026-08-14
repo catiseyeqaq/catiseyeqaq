@@ -230,9 +230,9 @@
     <ellipse cx="322" cy="454" rx="38" ry="16" class="accent-yellow"/>
   </g>
 
-  <text x="126" y="176" class="eyebrow">GOOGLE AI · GEMINI VISUAL LANGUAGE · REAL-WORLD SYSTEMS</text>
+  <text x="126" y="176" class="eyebrow">AI × ENGINEERING · MULTIMODAL AGENTS · GENERATIVE AI</text>
   <text x="126" y="300" class="title">YuXuanLin</text>
-  <text x="126" y="350" class="subtitle">building intelligence for the real world</text>
+  <text x="126" y="350" class="subtitle">build systems, not demos</text>
   <text x="126" y="410" class="meta">Master Student at Chongqing Artificial Intelligence Institute</text>
 
   <text x="880" y="202" class="quote">"Make AI vivid, useful,</text>
