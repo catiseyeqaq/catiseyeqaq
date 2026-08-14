@@ -142,7 +142,7 @@
 
 视觉 + 音频多模态宠物行为分析，覆盖行为识别、声音理解、风险提示与饲养建议。
 
-**[Repository →](https://github.com/catiseyeqaq/Real-time-Monitoring-and-Analysis-of-Pet-Behavior)**
+**[Repository →](https://github.com/catiseyeqaq/chongwu-xingwei-jiankang-jiance-xitong)**
 
 </td>
 </tr>
