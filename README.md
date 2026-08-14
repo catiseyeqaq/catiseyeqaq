@@ -97,7 +97,7 @@
 面向 **写实 AI 电影 / 短剧 / 商业视频** 的本地生产流水线。以 ComfyUI 为编排层，整合 MiniMax-H3、Qwen、角色一致性与关键帧工作流，覆盖从创意到镜头生成的完整链路。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/flagship-aifilm-keyframes.svg?v=20260814" alt="AI Film & Short Drama Keyframe Showcase" width="100%" />
+  <img src="https://raw.githubusercontent.com/catiseyeqaq/catiseyeqaq/main/assets/flagship-aifilm.gif?v=20260814" alt="AI Film & Short Drama — real generated footage showcase" width="100%" />
 </p>
 
 **Highlights**
