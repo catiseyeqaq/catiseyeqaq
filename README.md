@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/google-gemini-hero.svg?v=20260818" alt="YuXuanLin · AI × Engineering" width="100%" />
+<img src="https://cdn.jsdelivr.net/gh/catiseyeqaq/catiseyeqaq@main/assets/google-gemini-hero.svg" alt="YuXuanLin · AI × Engineering" width="100%" />
 
 # YuXuanLin
 
@@ -9,9 +9,9 @@
 **Building deployable AI systems for real-world engineering scenarios.**  
 面向真实工程场景，构建可部署、可审计、可扩展的智能体与多模态 AI 系统。
 
-<a href="https://github.com/catiseyeqaq?tab=followers"><img src="assets/pill-followers.svg?v=20260818" alt="Followers" /></a>
-<a href="https://github.com/catiseyeqaq?tab=stars"><img src="assets/pill-stars.svg?v=20260818" alt="Stars" /></a>
-<a href="mailto:catiseyeqaq@163.com"><img src="assets/pill-email.svg?v=20260818" alt="Email" /></a>
+<a href="https://github.com/catiseyeqaq?tab=followers"><img src="https://cdn.jsdelivr.net/gh/catiseyeqaq/catiseyeqaq@main/assets/pill-followers.svg" alt="Followers" /></a>
+<a href="https://github.com/catiseyeqaq?tab=stars"><img src="https://cdn.jsdelivr.net/gh/catiseyeqaq/catiseyeqaq@main/assets/pill-stars.svg" alt="Stars" /></a>
+<a href="mailto:catiseyeqaq@163.com"><img src="https://cdn.jsdelivr.net/gh/catiseyeqaq/catiseyeqaq@main/assets/pill-email.svg" alt="Email" /></a>
 
 </div>
 
@@ -43,7 +43,7 @@
 面向施工现场与低空无人机巡检的多模态安全智能体。将 **影像接入 → 目标/场景识别 → 结构化证据 → 风险研判 → 安全知识检索 → 整改台账** 编排为可追踪闭环。
 
 <p align="center">
-  <img src="assets/flagship-landair-architecture.svg?v=20260818" alt="Land-Air Inspection Agent Architecture" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/catiseyeqaq/catiseyeqaq@main/assets/flagship-landair-architecture.svg" alt="Land-Air Inspection Agent Architecture" width="100%" />
 </p>
 
 **Highlights**
@@ -70,7 +70,7 @@
 面向供水管网分析与运维辅助的公开示例 Agent。围绕 **管网拓扑、运行时序、风险关系、证据约束分析与可视化** 构建可复现流水线，并提供 CLI / Python API / HTML Dashboard / Open WebUI 适配。
 
 <p align="center">
-  <img src="assets/flagship-water-dashboard.svg?v=20260818" alt="Smart Water Management Agent Dashboard" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/catiseyeqaq/catiseyeqaq@main/assets/flagship-water-dashboard.svg" alt="Smart Water Management Agent Dashboard" width="100%" />
 </p>
 
 **Highlights**
@@ -97,7 +97,7 @@
 面向 **写实 AI 电影 / 短剧 / 商业视频** 的本地生产流水线。以 ComfyUI 为编排层，整合 MiniMax-H3、Qwen、角色一致性与关键帧工作流，覆盖从创意到镜头生成的完整链路。
 
 <p align="center">
-  <img src="assets/flagship-aifilm.gif?v=20260818" alt="AI Film & Short Drama — real generated footage showcase" width="100%" />
+  <img src="https://cdn.jsdelivr.net/gh/catiseyeqaq/catiseyeqaq@main/assets/flagship-aifilm.gif" alt="AI Film & Short Drama — real generated footage showcase" width="100%" />
 </p>
 
 **Highlights**
